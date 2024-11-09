@@ -43,7 +43,9 @@ require_once($_SERVER['DOCUMENT_ROOT'] ."/youtube_api/config.php");
                 for($i=0;$i < MAX_VIDEOS; $i++){
                     // var_dump($value['items']);die; // Testing
                     // the same $value['items'][$i]['id']['videoId']... add other
-                    $videoId = $value['items'][$i]['id']['videoId'];
+                    if(isset($value['items'][$i]['id']['videoId'])){
+                        $videoId = $value['items'][$i]['id']['videoId'];
+                    }
                     $title = $value['items'][$i]['snippet']['title'];
                     $description = $value['items'][$i]['snippet']['description'];
                 ?>
