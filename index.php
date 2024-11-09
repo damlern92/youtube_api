@@ -16,7 +16,7 @@ require_once($_SERVER['DOCUMENT_ROOT'] ."/youtube_api/config.php");
         <div class="row">
             <div class="col-lg-6 col-lg-offset-3 text-center">
                 <h2><span class="ion-minus"></span>Search YouTube videos by keywords <span class="inon-minus"></span></h2>
-                <p>In this application you will can to use YouTube API with PHP</p>
+                <p>In this application you can use YouTube API with PHP</p>
             </div>
            
         </div>
